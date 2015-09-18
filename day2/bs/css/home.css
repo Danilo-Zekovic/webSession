@@ -1,0 +1,51 @@
+body {
+  background-color: orange;
+}
+
+#main {
+  position: absolute;
+  background-color: orange;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height:100%;
+}
+
+.header{
+  position : fixed;
+  top :0;
+  height : 40px;
+  width : 100%;
+  background-color: white;
+  z-index: 1;
+}
+
+.content {
+  /*position : absolute;*/
+  background-color: gray;
+  margin-top: 40px;
+  /*margin-left: 10%;
+  margin-right: 10%; */
+  padding: 40px;
+  /*width: 80%*/
+}
+
+p {
+  color : #00FF00;
+  font-size: 120%; /* can also use px or em */
+  text-align: center;
+  margin: 15px;
+}
+
+.title {
+  color : red;
+  text-align: center;
+  font-family: "monospace";
+  font-style: italic;
+}
+
+div {
+  padding-bottom: 10px;
+}
+
