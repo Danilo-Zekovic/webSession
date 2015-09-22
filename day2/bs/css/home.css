@@ -25,14 +25,12 @@ body {
   /*position : absolute;*/
   background-color: gray;
   margin-top: 40px;
-  /*margin-left: 10%;
-  margin-right: 10%; */
+  margin-bottom: 60px;
   padding: 40px;
-  /*width: 80%*/
 }
 
 p {
-  color : #00FF00;
+  color : red;
   font-size: 120%; /* can also use px or em */
   text-align: center;
   margin: 15px;
