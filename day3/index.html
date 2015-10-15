@@ -40,7 +40,7 @@
     <div class="container" id="main">
       <div class="jumbotron">
         <h1>Tip Calculator</h1> 
-        <p>Calculate your tip amd split it with your friends with just few clicks</p> 
+        <p>Calculate your tip and split it with your friends with just few clicks</p> 
       </div> 
       
       <form class="form-horizontal" role="form">
@@ -72,15 +72,24 @@
         </div>
         
         <div class="form-group">
-          <!--label class="control-label col-md-2" for="amount2">Check amount:</label-->
+          <!-- Calculate button -->
           <div class="col-sm-4">
-          <!--input type="number" class="form-control col-md-2" id="amount2" placeholder="Amount in dollars"-->
-          <button type="button" class="btn btn-default pull-right">Calculate</button>
+            <button type="button" class="btn btn-default pull-right">Calculate</button>
           </div>
          
-          <label class="control-label col-md-2" for="amount3">Check amount:</label>
-          <div class="col-sm-4">
-            <input type="number" class="form-control col-md-2" id="amount3" placeholder="Amount in dollars">
+          <div class="col-sm-8">
+            <table class="table table-hover">
+              <tbody>
+                <tr>
+                  <th>Total Tip:</th>
+                  <td id="totalTip"> --tip amount-- </td>
+                </tr>
+                <tr>
+                  <th>Per Person:</th>
+                  <td id="perPerson"> --amount to pay per person-- </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
         
