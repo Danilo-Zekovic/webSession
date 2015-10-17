@@ -38,6 +38,12 @@
     <!-- Latest compiled JavaScript bootstrap -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     
+    <!-- js part of app, DELET IT and move the content to a separate file -->
+    <script>
+      $(function() {
+        $( "#slider" ).slider();
+      });
+      </script>
   </head>
   
   <body>
@@ -73,6 +79,10 @@
               <option>10</option>
             </select>
           </div>
+        </div>
+        
+        <div class="col-md-12">
+          <div id="slider"></div>
         </div>
         
         <div class="form-group">
