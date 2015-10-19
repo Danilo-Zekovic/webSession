@@ -45,7 +45,10 @@
           animate : true,
           max : 50,
           min : 0,
-          value : 20
+          value : 20,
+          change : function(event, ui) {
+            $('#percent').html(ui.value + "%");
+          }
         });
       });
       </script>
@@ -94,7 +97,7 @@
         <div class="col-md-10">
           <div id="slider"></div>
         </div>
-        <div class="col-md-1">50%</div>
+        <div class="col-md-1">50% <p id="percent">20%</p></div>
         
         <div class="form-group">
           <!-- Calculate button -->
