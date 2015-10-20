@@ -38,8 +38,13 @@
     <!-- Latest compiled JavaScript bootstrap -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     
+    <!-- custom js -->
+    <script src="js/spa.js"      ></script>
+    <script src="js/spa.shell.js"      ></script>
+    
     <!-- js part of app, DELET IT and move the content to a separate file -->
     <script>
+      $(function () { spa.initModule( $('#main') ); });
       $(function() {
         $( "#slider" ).slider({
           animate : true,
